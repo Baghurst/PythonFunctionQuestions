@@ -1,6 +1,6 @@
 #1
 print("NUM 1")
-
+#import myUnAdd
 def prefix(word):
     added = ('un'+word)
     return added
@@ -20,14 +20,17 @@ print(prefix(theinput))
 print("NUM 3")
 
 import math
-def circle_area(diameter):
+import myCircleArea
+
+'''def circle_area(diameter):
     radius = diameter / 2
     area = math.pi * (radius ** 2)
-    return area
+    return area'''
+
 diameter = float(input("Enter the diameter of a circle: "))
-
-print(f"The Area of the circle is {circle_area(diameter)}")
-
+Area = myCircleArea.circle_area(diameter)
+print(f"The Area of the circle is {Area}")
+#circle_area(diameter)
 #4
 print("NUM 4")
 
