@@ -67,6 +67,7 @@ def rectangle_area(h,w): #h = Height, w = Width
 def rectangle_perim(h,w): #h = Height, w = Width
     perim = (h + w) * 2
     return perim
+
 #---MAIN PROGRAM---
 
 print("Choose an option:")
@@ -102,3 +103,16 @@ elif options == 4:
     h = float(input("Enter the height of the rectangle: "))
     w = float(input("Enter the width of the rectangle: "))
     print(f"The Perimeter of the square is {rectangle_perim(h,w)}")
+
+#6
+print("NUM 6")
+
+def prefix(theinput):
+    lenght = len(theinput)
+    middle = int(lenght) // 2
+    char = theinput[middle]
+    return char
+theinput = input("Enter a word: ")
+print(f"The middle letter is: {prefix(theinput)}")
+    
+    
