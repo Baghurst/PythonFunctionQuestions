@@ -1,20 +1,20 @@
 #1
 print("NUM 1")
-#import myUnAdd
-def prefix(word):
+import myUnAdd
+'''def prefix(word):
     added = ('un'+word)
-    return added
+    return added'''
 theinput = input("Enter a word: ")
-print(prefix(theinput))
+print(myUnAdd.prefix(theinput))
     
  #2
 print("NUM 2")
-
-def prefix(word):
+import mySWordAdd
+'''def prefix(word):
     added = (word+'s')
-    return added
+    return added'''
 theinput = input("Enter a word: ")
-print(prefix(theinput))
+print(mySWordAdd.prefix(theinput))
         
 #3
 print("NUM 3")
